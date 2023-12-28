@@ -1,8 +1,8 @@
 # Hand Gesture Control with Arduino and YOLO
 
 This project allows you to control an Arduino robotic arm using hand gestures detected by a YOLO (You Only Look Once) object detection model. The system captures real-time video from a webcam, processes it using YOLO to identify hand gestures, and sends corresponding commands to the Arduino to perform actions with the robotic arm.
-<img width="352" alt="Screenshot 2023-12-29 021215" src="https://github.com/Maldandan/Gesture_Detection_Arm/assets/109004035/9060ff92-8eb6-4807-808f-cb0130e6d257">
-<img width="482" alt="Screenshot 2023-12-29 021244" src="https://github.com/Maldandan/Gesture_Detection_Arm/assets/109004035/7712ba5a-6afd-4e1a-adf5-f02418cd91e9">
+
+<img width="800" alt="Screenshot 2023-12-29 021244" src="images/2.png">
 
 
 ## Prerequisites
@@ -16,6 +16,8 @@ This project allows you to control an Arduino robotic arm using hand gestures de
 - Webcam
 
 ## Setup Instructions
+
+<img width="352" alt="Screenshot 2023-12-29 021215" src="images/1.png">
 
 1. Connect the Braccio robotic arm to the Arduino board and make sure the servo motors are properly connected. ( Use the Braccio shield)
 2. Install the required Python libraries `opencv-python` and `ultralytics` using pip.
