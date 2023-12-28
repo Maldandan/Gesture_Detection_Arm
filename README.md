@@ -1,10 +1,9 @@
 # Hand Gesture Control with Arduino and YOLO
 
 This project allows you to control an Arduino robotic arm using hand gestures detected by a YOLO (You Only Look Once) object detection model. The system captures real-time video from a webcam, processes it using YOLO to identify hand gestures, and sends corresponding commands to the Arduino to perform actions with the robotic arm.
+<img width="352" alt="Screenshot 2023-12-29 021215" src="https://github.com/Maldandan/Gesture_Detection_Arm/assets/109004035/9060ff92-8eb6-4807-808f-cb0130e6d257">
+<img width="482" alt="Screenshot 2023-12-29 021244" src="https://github.com/Maldandan/Gesture_Detection_Arm/assets/109004035/7712ba5a-6afd-4e1a-adf5-f02418cd91e9">
 
-<img width="481" alt="image" src="https://github.com/Maldandan/Gesture_Detection_Arm/assets/109004035/9b31b50f-726f-4192-88f5-bd93dc5727c7">
-
-<img width="355" alt="image" src="https://github.com/Maldandan/Gesture_Detection_Arm/assets/109004035/b83c342d-722d-434e-9a64-52e069719344">
 
 ## Prerequisites
 
@@ -245,4 +244,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - The YOLO object detection model used in this project is developed and maintained by the Ultralytics team. You can find their GitHub repository at [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5).
 - The Braccio robotic arm is a product of [Arduino](https://www.arduino.cc/).
-- The dataset used to train the model and used for the control is [HAdrid_dataset]([url](https://github.com/hukenovs/hagrid)https://github.com/hukenovs/hagrid)
+- The dataset used to train the model and used for the control is [HAgrid](https://github.com/hukenovs/hagrid)
